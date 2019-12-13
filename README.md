@@ -1,5 +1,9 @@
 # cuda-getdevice
+
 reports cuda gpu specs
+requires: cuda-toolkit, nvcc compiler
+Author: Daniel Vogel
+Date:   Dec 13, 2019
 
 Compile these c programs with the following command.  Ommit the -arch flag if you are not sure wha
 
@@ -17,4 +21,18 @@ Device Number: 0
 
 Device Number: 1
   Device name: Tesla K10.G2.8GB
-  CUDA Cores: 1,536  Architecture: Kepler  Memory Clock Rate (GHz): 2  Memory Bus Width (bits): 256  Peak Memory Bandwidth (GB/s): 160.000000Device Number: 2  Device name: Tesla K10.G2.8GB  CUDA Cores: 1,536  Architecture: Kepler  Memory Clock Rate (GHz): 2  Memory Bus Width (bits): 256  Peak Memory Bandwidth (GB/s): 160.000000Total CUDA Cores: 3,328
+  CUDA Cores: 1,536  
+  Architecture: Kepler  
+  Memory Clock Rate (GHz): 2  
+  Memory Bus Width (bits): 256  
+  Peak Memory Bandwidth (GB/s): 160.000000
+  
+Device Number: 2  
+  Device name: Tesla K10.G2.8GB
+  CUDA Cores: 1,536
+  Architecture: Kepler
+  Memory Clock Rate (GHz): 2
+  Memory Bus Width (bits): 256
+  Peak Memory Bandwidth (GB/s): 160.000000
+  
+  Total CUDA Cores: 3,328
