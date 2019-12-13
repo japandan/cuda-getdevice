@@ -5,7 +5,7 @@ requires: cuda-toolkit, nvcc compiler
 Author: Daniel Vogel
 Date:   Dec 13, 2019
 
-Compile these c programs with the following command.  Ommit the -arch flag if you are not sure wha
+Compile these c programs with the following command. 
 
 nvcc -o getDevice.total ./getDevice.total.cu -run
 </pre>
