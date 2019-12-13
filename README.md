@@ -1,5 +1,5 @@
 # cuda-getdevice
-
+<pre>
 reports cuda gpu specs
 requires: cuda-toolkit, nvcc compiler
 Author: Daniel Vogel
@@ -8,9 +8,11 @@ Date:   Dec 13, 2019
 Compile these c programs with the following command.  Ommit the -arch flag if you are not sure wha
 
 nvcc -o getDevice.total ./getDevice.total.cu -run
+</pre>
+
 
 SAMPLE OUTPUT:
-
+<pre>
 Device Number: 0
   Device name: Quadro P400
   CUDA Cores: 256
@@ -36,3 +38,4 @@ Device Number: 2
   Peak Memory Bandwidth (GB/s): 160.000000
   
   Total CUDA Cores: 3,328
+  </pre>
